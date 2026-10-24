@@ -17,11 +17,11 @@ require __DIR__.'/../vendor/autoload.php';
 /** @var Application $app */
 $app = require_once __DIR__.'/../bootstrap/app.php';
 
-try {
-    $app->handleRequest(Request::capture());
-} catch (\Throwable $e) {
-    error_log('LARAVEL ORIGINAL ERROR: '.$e);
-    throw $e;
-}
+// try {
+//     $app->handleRequest(Request::capture());
+// } catch (\Throwable $e) {
+//     error_log('LARAVEL ORIGINAL ERROR: '.$e);
+//     throw $e;
+// }
 
-// $app->handleRequest(Request::capture());
+$app->handleRequest(Request::capture());
