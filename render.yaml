@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: my-laravel-app
+    runtime: docker
+    envVars:
+      - key: APP_KEY
+        generateValue: true
+      - key: APP_ENV
+        value: production
+      - key: APP_DEBUG
+        value: "false"
+      - key: LOG_CHANNEL
+        value: stderr
