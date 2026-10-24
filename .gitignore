@@ -31,3 +31,5 @@ Homestead.json
 auth.json
 
 .claude
+*.md
+*.github
