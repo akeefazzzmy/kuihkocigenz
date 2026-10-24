@@ -35,3 +35,4 @@ RUN composer install \
     && chown -R www-data:www-data storage bootstrap/cache
 
 USER www-data
+ENV PHP_OUTPUT_BUFFERING=4096
