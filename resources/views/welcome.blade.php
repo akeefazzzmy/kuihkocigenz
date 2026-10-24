@@ -8,7 +8,7 @@
 
         <title>Koci Gen Z — Pulut Hitam Santan Banjir</title>
 
-        @fonts
+        <!-- @fonts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body>
