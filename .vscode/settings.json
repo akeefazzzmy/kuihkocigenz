@@ -7,6 +7,10 @@
         "/^node -v; Get-Command node -All \\| Select-Object -ExpandProperty Source$/": {
             "approve": true,
             "matchCommandLine": true
+        },
+        "/^if \\(Test-Path '\\.ai\\\\rules'\\) \\{ Write-Output 'RULES_PRESENT'; Get-ChildItem -Path '\\.ai\\\\rules' -Force -Recurse \\| Select-Object -ExpandProperty FullName \\} else \\{ Write-Output 'RULES_ABSENT' \\}$/": {
+            "approve": true,
+            "matchCommandLine": true
         }
     }
 }

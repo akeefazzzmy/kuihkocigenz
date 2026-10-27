@@ -940,6 +940,12 @@ img {
     color: #f17b52;
 }
 
+.delivery-order-action {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
 .delivery-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));

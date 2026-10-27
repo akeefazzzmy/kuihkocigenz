@@ -211,6 +211,19 @@
                         </article>
                     </div>
                     <p class="menu-footnote"><span aria-hidden="true">✳</span> Atur penghantaran atau ambil sendiri di Putrajaya / Desa Pinggiran Putra.</p>
+                    <div class="delivery-order-action">
+                        <a
+                            class="button button-primary"
+                            href="https://wa.me/60198684492?text=Nama%3A%0AAlamat%20Penuh%3A%0ANombor%20Telefon%3A%0AHari%3A%0ATarikh%3A%0AMasa%3A%0AOrder%3A"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >Tempah melalui WhatsApp
+                            <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.1 11.6a8.1 8.1 0 0 1-12 7.1L3 20l1.3-4.9a8.1 8.1 0 1 1 15.8-3.5Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8.2 7.8c.2-.4.5-.5.8-.5h.6c.2 0 .4.1.5.4l.8 1.8c.1.2.1.4-.1.6l-.6.7c-.2.2-.2.4-.1.6.5 1 1.3 1.8 2.3 2.3.2.1.4.1.6-.1l.7-.8c.2-.2.4-.2.6-.1l1.8.8c.3.1.4.3.4.5v.6c0 .3-.1.6-.5.8-.5.3-1.2.5-2 .3-1.1-.3-2.5-1-3.8-2.3-1.3-1.3-2-2.7-2.3-3.8-.2-.8 0-1.5.3-2Z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </section>
         </main>
